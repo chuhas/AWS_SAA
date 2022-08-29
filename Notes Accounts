@@ -1,6 +1,13 @@
 Adding Accounts
   -Unique email for each account (Gmail + trick)
   -Add MFA to account (new entry for each account)
+    -Account drop down>Security Credentials
   -Add budget
+    -Account drop down>Billing Dashboard>Budgets (lefthand side)
+      -Go through each page setting budget and alerts
+    -Set billing preferences (lefthand side) check boxes and set email
   -Add IAM user and role access to billing
+    -Account drop down>Account
+      -Scroll to IAM User and Role Access to Billing Information
+        -Click edit and check Activate IAM Access and click update
   -Add account contacts
