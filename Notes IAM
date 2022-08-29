@@ -1,3 +1,12 @@
 Identity and Access Managemant (IAM)
+  -Globally persistant core AWS service
+  -Has the same permissions as the root user (except billing and account closure)
+    -Create and manage identities and thier permissions.
+    -IAM identities start with no permissions on an AWS Account, but can be granted permissions (almost) up to those held by the Account Root User
+    -IAM allows the creation of 3 different types of identity objects
+      -Users, Groups, and Roles
+        -Users: Humans or applications that need access to the account
+        -Groups: Collection of related users (Accounting, HR, Developers)
+        -Roles: Used for AWS services or external access to the account
   -Least Privilege Access: limits users' access rights to only what are strictly required to do their jobs
     -Users, Groups, and applications
