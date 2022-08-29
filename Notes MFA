@@ -1,0 +1,18 @@
+Notes:
+
+Multi-factor Authentication (MFA)
+  -Factors:
+    -Knowledge: "Something you know" ie Usernames & Passwords
+    -Possession: "Something you have" ie Bank card or MFA device/app
+    -Inherent: Somthing you are" ie fingerprint or facial recognition
+    -Location: "Somewhere you are" ie physical location or which network you're logged into
+    -Multiple factors make it more secure, but less convenient
+  -AWS MFA
+    -Usually requires 2x Knowledge (user name + password) and Possesion (Virtual MFA device token/code authenticator - which usually has MFA ie username, password, and inherent (face/finger))
+    -Setup MFA (root user - Use new entry for additional accounts or identities)
+      -Account drop down (upper right)
+        >Security Credentials
+          >Multi-factor Authentication (MFA)
+            >Activate MFA
+            >Scan QR code
+            >Enter code

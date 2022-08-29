@@ -1,8 +1,0 @@
-Notes:
-
-Multifactor Authentication (MFA)
-  -Factors:
-    -Knowledge: "Something you know" ie Usernames & Passwords
-    -Possession: "Something you have" ie Bank card or MFA device/app
-    -Inherent: Somthing you are" ie fingerprint or facial recognition
-    -Location: "Somewhere you are" ie physical location or which network you're logged into
