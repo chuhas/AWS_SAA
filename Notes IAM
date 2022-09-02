@@ -10,3 +10,8 @@ Identity and Access Managemant (IAM)
         -Roles: Used for AWS services or external access to the account
   -Least Privilege Access: limits users' access rights to only what are strictly required to do their jobs
     -Users, Groups, and applications
+  -No cost
+  -Global Service/Global resilience
+  -Allow or Deny its identities on its AWS account
+  -No direct control on external accounts or users
+  -Identity federation and MFA
