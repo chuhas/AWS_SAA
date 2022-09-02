@@ -15,3 +15,15 @@ Identity and Access Managemant (IAM)
   -Allow or Deny its identities on its AWS account
   -No direct control on external accounts or users
   -Identity federation and MFA
+  -IAM Access Keys
+    -Long Term Credentials - Don't change automatically or regularly
+      -ie user names and passwords
+      -Access keys
+        -IAM users have only 1 user name and 1 password
+        -An IAM user can have up tp two access keys
+        -Access keys can be created, deleted, made inactive or active
+        -IAM Access Keys consist of two access keys
+          -Access key ID
+          -Secret Access Key
+            -When created, you have the secret access key (only once won't get it again)
+    -If compromised, delete and create new one
